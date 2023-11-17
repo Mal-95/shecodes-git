@@ -1,0 +1,104 @@
+body {
+    font-family: PT mono, monospace;
+    background-attachment: fixed;
+    background: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);
+  }
+  
+  form {
+    text-align: center;
+  }
+  h1 {
+    color: black;
+  }
+  
+  header {
+    border-bottom: 1px solid #f9f7fe;
+    padding-bottom: 30px;
+  }
+  
+  .current-temperature-unit {
+    font-size: 30px;
+  }
+  
+  .search-input {
+    background-color: #f9f7fe;
+    border: none;
+    color: rgba(39, 33, 66, 0.4);
+    font-size: 16px;
+    padding: 20px;
+    width: 75%;
+    border-radius: 6px;
+  }
+  
+  .search-button {
+    margin-left: 5px;
+    font-size: 16px;
+    background-color: #885df1;
+    color: white;
+    border: none;
+    padding: 20px;
+    line-height: 1;
+    border-radius: 5px;
+  }
+  
+  footer {
+    text-align: center;
+    padding-top: 15px;
+  
+    color: rgba(39, 33, 66, 0.4);
+  }
+  
+  .current-percentages strong {
+    color: rgb(40, 14, 209);
+  }
+  
+  .search-input {
+    background-color: #f9f7fe;
+    border: none;
+    color: rgba(39, 33, 66, 0.4);
+    font-size: 16px;
+    padding: 20px;
+    width: 45%;
+    border-radius: 6px;
+  }
+  
+  .container {
+    background: linear-gradient(
+      104.3deg,
+      rgb(253, 243, 243) 10.9%,
+      rgb(248, 231, 231) 27.8%,
+      rgb(160, 112, 161) 101.7%
+    );
+    width: auto;
+    padding: 1px;
+    border: solid lightgray;
+    border-radius: 6px;
+  }
+  .containers {
+    background: radial-gradient(
+      253px at 12.6% 77.9%,
+      rgb(221, 255, 214) 0.3%,
+      rgb(214, 254, 254) 90.5%
+    );
+    width: auto;
+    padding: 1px;
+    border-radius: 2px;
+    opacity: 100%;
+  }
+  
+  .conditions {
+    color: #9aa0a6;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 14px;
+  }
+  
+  .current-temperature {
+    font-size: 48px;
+  }
+  
+  .current-weather {
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+  }
